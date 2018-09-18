@@ -18,7 +18,82 @@
   ## 1. sklearn.neighbors.KNeighborsClassifier(Класс реализующий классификацию методом k ближайших соседей) <a name="knn"></a>
   
   <p>class sklearn.neighbors.KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=1, **kwargs)</p>
-  <p>Пары «объект-ответ» (x<sub>i</sub>, y<sub>i</sub>) называются <i>прецедентами</i>. Совокупность пар 𝑋<sup>ℓ</sup>=(𝑥<sub>𝑖</sub>,𝑦<sub>𝑖</sub>)<sup>ℓ</sup><sub>𝑖=1</sub> называется <i>обучающей выборкой</i>.</p>
+  <p>class KNeighborsClassifier(NeighborsBase, KNeighborsMixin,
+                           SupervisedIntegerMixin, ClassifierMixin):
+    """Classifier implementing the k-nearest neighbors vote.
+    Read more in the :ref:`User Guide <classification>`.
+    Parameters
+    ----------
+    n_neighbors : int, optional (default = 5)
+        Number of neighbors to use by default for :meth:`kneighbors` queries.
+    weights : str or callable, optional (default = 'uniform')
+        weight function used in prediction.  Possible values:
+        - 'uniform' : uniform weights.  All points in each neighborhood
+          are weighted equally.
+        - 'distance' : weight points by the inverse of their distance.
+          in this case, closer neighbors of a query point will have a
+          greater influence than neighbors which are further away.
+        - [callable] : a user-defined function which accepts an
+          array of distances, and returns an array of the same shape
+          containing the weights.
+    algorithm : {'auto', 'ball_tree', 'kd_tree', 'brute'}, optional
+        Algorithm used to compute the nearest neighbors:
+        - 'ball_tree' will use :class:`BallTree`
+        - 'kd_tree' will use :class:`KDTree`
+        - 'brute' will use a brute-force search.
+        - 'auto' will attempt to decide the most appropriate algorithm
+          based on the values passed to :meth:`fit` method.
+        Note: fitting on sparse input will override the setting of
+        this parameter, using brute force.
+    leaf_size : int, optional (default = 30)
+        Leaf size passed to BallTree or KDTree.  This can affect the
+        speed of the construction and query, as well as the memory
+        required to store the tree.  The optimal value depends on the
+        nature of the problem.
+    p : integer, optional (default = 2)
+        Power parameter for the Minkowski metric. When p = 1, this is
+        equivalent to using manhattan_distance (l1), and euclidean_distance
+        (l2) for p = 2. For arbitrary p, minkowski_distance (l_p) is used.
+    metric : string or callable, default 'minkowski'
+        the distance metric to use for the tree.  The default metric is
+        minkowski, and with p=2 is equivalent to the standard Euclidean
+        metric. See the documentation of the DistanceMetric class for a
+        list of available metrics.
+    metric_params : dict, optional (default = None)
+        Additional keyword arguments for the metric function.
+    n_jobs : int, optional (default = 1)
+        The number of parallel jobs to run for neighbors search.
+        If ``-1``, then the number of jobs is set to the number of CPU cores.
+        Doesn't affect :meth:`fit` method.
+    Examples
+    --------
+    >>> X = [[0], [1], [2], [3]]
+    >>> y = [0, 0, 1, 1]
+    >>> from sklearn.neighbors import KNeighborsClassifier
+    >>> neigh = KNeighborsClassifier(n_neighbors=3)
+    >>> neigh.fit(X, y) # doctest: +ELLIPSIS
+    KNeighborsClassifier(...)
+    >>> print(neigh.predict([[1.1]]))
+    [0]
+    >>> print(neigh.predict_proba([[0.9]]))
+    [[ 0.66666667  0.33333333]]
+    See also
+    --------
+    RadiusNeighborsClassifier
+    KNeighborsRegressor
+    RadiusNeighborsRegressor
+    NearestNeighbors
+    Notes
+    -----
+    See :ref:`Nearest Neighbors <neighbors>` in the online documentation
+    for a discussion of the choice of ``algorithm`` and ``leaf_size``.
+    .. warning::
+       Regarding the Nearest Neighbors algorithms, if it is found that two
+       neighbors, neighbor `k+1` and `k`, have identical distances
+       but different labels, the results will depend on the ordering of the
+       training data.
+    https://en.wikipedia.org/wiki/K-nearest_neighbor_algorithm
+    """</p>
   <p>Задача <i>обучения по прецедентам</i> заключается в том, чтобы по выборке 𝑋<sup>ℓ</sup> <i>восстановить зависимость</i> y*, то есть построить <i>решающую функцию</i> a: X -> Y, которая приближала бы целевую функцию y*(x), причем не только на объектах обучающей выборки, но и на всем множестве X.</p>
   <p>Решающая функция a должна допускать эффективную компьютерную реализацию; по этой причине её называют <i>классифицирующим алгоритмом</i> .</p>
   <p><i>Признак f</i> объекта x – это результат измерения некоторой характеристики объекта. Формально признаком называется отображение <i>f</i>: X -> D<i>f</i>, где D<i>f</i> – множество допустимых значений признака. В частности, любой алгоритм a: X -> Y также можно рассматривать как признак.</p>

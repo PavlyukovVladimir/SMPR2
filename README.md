@@ -1,5 +1,8 @@
  
   # Классифицирующие алгоритмы
+  
+  https://mlbootcamp.ru/article/tutorial/
+  
   ## Навигация
   <p><a href="#knn">1. sklearn.neighbors.KNeighborsClassifier(Класс реализующий классификацию методом k ближайших соседей)</a></p>
   <p><a href="#Metricheskiye_algoritmy">2. Метрические алгоритмы</a></p>

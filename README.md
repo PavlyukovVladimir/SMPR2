@@ -1,9 +1,13 @@
- 
-
+<!-- комментарий-->
+<!--ссылка на файл <a href='https://github.com/PavlyukovVladimir/SMPR/blob/master/scripts/NNBayes.R'>NNBayes.R</a>-->
+<!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
 
   ## Навигация
   <p><a href="#ak"><h1>1. Алгоритмы классификации</h1></a></p>
   <p><a href="#mak"><h2>1.1. Метрические алгоритмы классификации</h2></a></p>
+  
+  
+  
   <p><a href="#Metricheskiye_algoritmy">2. Метрические алгоритмы</a></p>
   <p><a href="#a1NN">2.1. 1NN</a></p>
   <p><a href="#akNN">2.2. kNN</a></p>

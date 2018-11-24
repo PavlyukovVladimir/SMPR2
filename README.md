@@ -3,6 +3,7 @@
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
 <base href="https://github.com/PavlyukovVladimir/SMPR2/blob/master/" ></base>
 
+<a href='https://github.com/PavlyukovVladimir/SMPR2/blob/master/scripts/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>
 ## Навигация
   <p><a href="#ak"><h1>1. Алгоритмы классификации</h1></a></p>
   <p><a href="#mak"><h2>1.1. Метрические алгоритмы классификации</h2></a></p>

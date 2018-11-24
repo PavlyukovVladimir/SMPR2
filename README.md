@@ -1,10 +1,9 @@
  
-  # Классифицирующие алгоритмы
-  
-  https://mlbootcamp.ru/article/tutorial/
-  
+
+
   ## Навигация
-  <p><a href="#knn">1. sklearn.neighbors.KNeighborsClassifier(Класс реализующий классификацию методом k ближайших соседей)</a></p>
+  <p><a href="#ak"><h1>1. Алгоритмы классификации</h1></a></p>
+  <p><a href="#mak"><h2>1.1. Метрические алгоритмы классификации</h2></a></p>
   <p><a href="#Metricheskiye_algoritmy">2. Метрические алгоритмы</a></p>
   <p><a href="#a1NN">2.1. 1NN</a></p>
   <p><a href="#akNN">2.2. kNN</a></p>
@@ -17,7 +16,11 @@
   <p><a href="#SG">4.1. Метод стохастического градиента.</a></p>
   <p><a href="#ADALINE">4.1.1 ADALINE.</a></p>
   <p><a href="#Perseptron">4.1.2 Персептрон Розенблатта.</a></p>
-  
+  <h1 align="center">Алгоритмы классификации</h1><a name="ak"></a>
+  <h2>1.1. Метрические алгоритмы классификации</h2><a name="mak"></a>
+<li>Используя готовые методы из библиотеки sklearn, применить алгоритмы классификации, основанные на методе ближайших соседей и методе парзеновского окна (использовать различные ядра) для классификации исходных данных.</li>
+<li>Оптимальные параметры выбирать по критерию скользящего контроля.</li>
+<li>Оценить качество построенных алгоритмов.</li>
   ## 1. sklearn.neighbors.KNeighborsClassifier(Класс реализующий классификацию методом k ближайших соседей) <a name="knn"></a>
   
   <p>class sklearn.neighbors.KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=1, **kwargs)</p>

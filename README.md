@@ -1,6 +1,11 @@
 <!-- комментарий-->
 <!--ссылка на файл <a href='https://github.com/PavlyukovVladimir/SMPR/blob/master/scripts/NNBayes.R'>NNBayes.R</a>-->
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
+<style>
+ strong {
+  color: red;
+ }
+</style>
 <base href="https://github.com/PavlyukovVladimir/SMPR2/blob/master/" ></base>
 <a name="navigation"></a><!--Якорь для Навигации-->
 

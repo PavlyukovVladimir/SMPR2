@@ -18,10 +18,13 @@
 <li>Используя готовые методы из библиотеки sklearn, применить алгоритмы классификации, основанные на методе ближайших соседей и методе парзеновского окна (использовать различные ядра) для классификации исходных данных.</li>
 <li>Оптимальные параметры выбирать по критерию скользящего контроля.</li>
 <li>Оценить качество построенных алгоритмов.</li>
+<p></p>
 <p>Решение оформлено в Jupyter notebook, страница с решением: <a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
 
 <h2>1.1. Байесовские алгоритмы классификации</h2><a name="bak"></a>
 <li>Используя готовые методы из библиотеки sklearn, применить байесовские алгоритмы классификации «наивный байес», линейный дискриминант Фишера и plug-in алгоритм для классификации исходных данных.</li>
 <li>Оценить качество построенных алгоритмов.</li>
+<p></p>
 <p>Решение оформлено в Jupyter notebook, страница с решением: <b>не решено</b><!--<a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>--></p>
+<p><a href="#navigation"><b>Вверх к навигации</b></a></p>

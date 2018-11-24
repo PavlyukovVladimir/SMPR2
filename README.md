@@ -3,7 +3,6 @@
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
 <base href="https://github.com/PavlyukovVladimir/SMPR2/blob/master/" ></base>
 
-<a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>
 ## Навигация
   <p><a href="#ak"><h1>1. Алгоритмы классификации</h1></a></p>
   <p><a href="#mak"><h2>1.1. Метрические алгоритмы классификации</h2></a></p>
@@ -27,6 +26,7 @@
 <li>Используя готовые методы из библиотеки sklearn, применить алгоритмы классификации, основанные на методе ближайших соседей и методе парзеновского окна (использовать различные ядра) для классификации исходных данных.</li>
 <li>Оптимальные параметры выбирать по критерию скользящего контроля.</li>
 <li>Оценить качество построенных алгоритмов.</li>
+<p>Решение оформлено в Jupyter notebook, страница с решением: <a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a></p>
   ## 1. sklearn.neighbors.KNeighborsClassifier(Класс реализующий классификацию методом k ближайших соседей) <a name="knn"></a>
   
   <p>class sklearn.neighbors.KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=1, **kwargs)</p>

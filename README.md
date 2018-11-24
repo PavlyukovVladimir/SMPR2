@@ -2,8 +2,26 @@
 <!--ссылка на файл <a href='https://github.com/PavlyukovVladimir/SMPR/blob/master/scripts/NNBayes.R'>NNBayes.R</a>-->
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
 
+#Color Format 
+colFmt = function(x,color){ 
+    outputFormat = opts_knit$get("rmarkdown.pandoc.to") 
+    if(outputFormat == 'latex') 
+    paste("\\textcolor{",color,"}{",x,"}",sep="") 
+    else if(outputFormat == 'html') 
+    paste("<font color='",color,"'>",x,"</font>",sep="") 
+    else 
+    x 
+}
+
+`r colFmt("MY RED TEXT",'red')`
+
 <base href="https://github.com/PavlyukovVladimir/SMPR2/blob/master/" ></base>
 <a name="navigation"></a><!--Якорь для Навигации-->
+
+Roses are <span style="color:red">red</span>, 
+violets are <span style="color:blue">blue</span>.
+
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 ## Навигация
 

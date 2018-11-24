@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-body {
-        color: red;
-}
-h1 {
-        color: #00FF00;
-}
-p {
-        color: rgb(0,0,255)
-}
-</head>
-<body>
 <!-- комментарий-->
 <!--ссылка на файл <a href='https://github.com/PavlyukovVladimir/SMPR/blob/master/scripts/NNBayes.R'>NNBayes.R</a>-->
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
@@ -44,14 +30,14 @@ p {
 <li>Используя готовые методы из библиотеки sklearn, применить байесовские алгоритмы классификации «наивный байес», линейный дискриминант Фишера и plug-in алгоритм для классификации исходных данных.</li>
 <li>Оценить качество построенных алгоритмов.</li>
 <p></p>
-<p>Решение оформлено в Jupyter notebook, страница с решением: <strong><font color="green">не решено</font></strong><!--<a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>--></p>
+<p>Решение оформлено в Jupyter notebook, страница с решением: <strong><font color="green">не решено</font></strong></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
 
 <h2>1.3. Линейные алгоритмы классификации</h2><a name="lak"></a>
 <li>Используя готовые методы из библиотеки sklearn, применить линейные алгоритмы для классификации исходных данных.</li>
 <li>Оценить качество построенных алгоритмов.</li>
 <p></p>
-<p>Решение оформлено в Jupyter notebook, страница с решением: <b >не решено</b><!--<a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>--></p>
+<p>Решение оформлено в Jupyter notebook, страница с решением: <b >не решено</b></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
 
 <h1 align="center">2. Методы восстановления регрессии</h1><a name="mvr"></a>
@@ -62,7 +48,5 @@ p {
 <li>Сравнить SSE для гауссовского и квартического ядер.</li>
 <li>Сделать выводы.</li>
 <p></p>
-<p>Решение оформлено в Jupyter notebook, страница с решением: <b>не решено</b><!--<a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>--></p>
+<p>Решение оформлено в Jupyter notebook, страница с решением: <b>не решено</b></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
-</body>
-</html>

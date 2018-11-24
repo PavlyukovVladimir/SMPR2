@@ -1,11 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+body {
+        color: red;
+}
+h1 {
+        color: #00FF00;
+}
+p {
+        color: rgb(0,0,255)
+}
+</head>
+<body>
 <!-- комментарий-->
 <!--ссылка на файл <a href='https://github.com/PavlyukovVladimir/SMPR/blob/master/scripts/NNBayes.R'>NNBayes.R</a>-->
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
-<style>
- strong {
-  color: red;
- }
-</style>
+
 <base href="https://github.com/PavlyukovVladimir/SMPR2/blob/master/" ></base>
 <a name="navigation"></a><!--Якорь для Навигации-->
 
@@ -54,3 +64,5 @@
 <p></p>
 <p>Решение оформлено в Jupyter notebook, страница с решением: <b>не решено</b><!--<a href='Jupyter-notebook-notes/Metricheskiye_algoritmy_klassifikatcii.ipynb'>Metricheskiye_algoritmy_klassifikatcii.ipynb</a>--></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
+</body>
+</html>

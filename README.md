@@ -1,7 +1,7 @@
 <!-- комментарий-->
 <!--ссылка на файл <a href='https://github.com/PavlyukovVladimir/SMPR/blob/master/scripts/NNBayes.R'>NNBayes.R</a>-->
 <!--вставка картинки <img src="img/omega.jpg" alt="вероятность_собятия">-->
-
+<base href="https://github.com/PavlyukovVladimir/SMPR2/blob/master/" ></base>
   ## Навигация
   <p><a href="#ak"><h1>1. Алгоритмы классификации</h1></a></p>
   <p><a href="#mak"><h2>1.1. Метрические алгоритмы классификации</h2></a></p>

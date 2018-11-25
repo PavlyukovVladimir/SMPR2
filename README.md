@@ -38,7 +38,7 @@
 <li>Используя готовые методы из библиотеки sklearn, применить байесовские алгоритмы классификации «наивный байес», линейный дискриминант Фишера и plug-in алгоритм для классификации исходных данных.</li>
 <li>Оценить качество построенных алгоритмов.</li>
 <p></p>
-<p>Решение оформлено в Jupyter notebook, страница с решением: <strong>не решено</strong></p>
+<p>Решение оформлено в Jupyter notebook, страница с решением: <a href='Jupyter-notebook-notes/Bayyesovskiye algoritmy klassifikatsii.ipynb'>Bayyesovskiye algoritmy klassifikatsii.ipynb</a></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
 
 <h2>1.3. Линейные алгоритмы классификации</h2><a name="lak"></a>

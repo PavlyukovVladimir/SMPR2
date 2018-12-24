@@ -45,7 +45,7 @@
 <li>Используя готовые методы из библиотеки sklearn, применить линейные алгоритмы для классификации исходных данных.</li>
 <li>Оценить качество построенных алгоритмов.</li>
 <p></p>
-<p>Решение оформлено в Jupyter notebook, страница с решением: <strong>не решено</strong></p>
+<p>Решение оформлено в Jupyter notebook, страница с решением: <a href='Jupyter-notebook-notes/Bayyesovskiye algoritmy klassifikatsii.ipynb'>Bayyesovskiye algoritmy klassifikatsii.ipynb</a></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
 
 <h1 align="center">2. Методы восстановления регрессии</h1><a name="mvr"></a>

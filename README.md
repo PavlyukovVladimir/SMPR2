@@ -56,7 +56,7 @@
 <li>Сравнить SSE для гауссовского и квартического ядер.</li>
 <li>Сделать выводы.</li>
 <p></p>
-<p><font color="green">Решение оформлено в Jupyter notebook, страница с решением: <strong>не решено</strong></p>
+<p><font color="green">Решение оформлено в Jupyter notebook, страница с решением: <a href='Jupyter-notebook-notes/nadaray_vatson.ipynb'>nadaray_vatson.ipynb</a></p>
 <p><a href="#navigation"><b>Вверх к навигации</b></a></p>
 
 <h2>2.2. Метод LOWESS для непараметрической регрессии</h2><a name="lowess"></a>
